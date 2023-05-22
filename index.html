@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shopily</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body bgcolor="#414850">
+    <header>
+      <h1>Products</h1>
+    </header>
+    <main>
+      <section class="products">
+        <div class="product">
+          <img src="pics/iPhone 14 Pro Max.png" alt="Product 1">
+          <h2>Apple iPhone 14 Pro Max 512GB</h2>
+          <p>$1199.99</p>
+          <button onclick="addToCart('Product 1', 1199.99)">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="pics/MacBook Pro 14.jpg" alt="Product 2">
+          <h2>Apple MacBook Pro 14" 16GB/1TB</h2>
+          <p>$1599.99</p>
+          <button onclick="addToCart('Product 2', 1599.99)">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="pics/Sony A6600.jpeg" alt="Product 3">
+          <h2>Sony A6600 Mirrorless Camera</h2>
+          <p>$1199.99</p>
+          <button onclick="addToCart('Product 3', 1199.99)">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="pics/iPad Air.jpg" alt="Product 4">
+          <h2>Apple iPad Air 256GB</h2>
+          <p>$499.99</p>
+          <button onclick="addToCart('Product 1', 499.99)">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="pics/Schuberth E-1.png" alt="Product 5">
+          <h2>Schuberth E-1 Carbon Fibre Helmet</h2>
+          <p>$549.99</p>
+          <button onclick="addToCart('Product 1', 549.99)">Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="pics/Nike Air Jordan 3.jpeg" alt="Product 6">
+          <h2>Nike Air Jordan 3</h2>
+          <p>$199.99</p>
+          <button onclick="addToCart('Product 1', 199.99)">Add to Cart</button>
+        </div>
+      </section>
+      <aside class="cart">
+        <h2>Cart</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: $<span id="cart-total">0</span></p>
+      </aside>
+    </main>
+    <footer>
+      <p>&copy; 2023 E-commerce website</p>
+    </footer>
+  </body>
+</html>
